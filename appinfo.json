@@ -1,0 +1,1052 @@
+{
+    "appKeys": {
+        "MK_SETTINGS_CHAR": 1,
+        "MK_SETTINGS_CHARACTERSBEATEN": 12,
+        "MK_SETTINGS_CURRENTTOURNEY": 36,
+        "MK_SETTINGS_FIGHTRUMBLEOFF": 38,
+        "MK_SETTINGS_LASTFIGHTTIMED": 41,
+        "MK_SETTINGS_LASTFIGHTTIMEH": 40,
+        "MK_SETTINGS_LASTSTEPS": 11,
+        "MK_SETTINGS_LASTSTEPTIME": 39,
+        "MK_SETTINGS_LOSES": 9,
+        "MK_SETTINGS_OPPONENT": 17,
+        "MK_SETTINGS_RESETSETTINGS": 7,
+        "MK_SETTINGS_ROUNDLOSES": 15,
+        "MK_SETTINGS_ROUNDWINS": 14,
+        "MK_SETTINGS_SLEEPEND": 5,
+        "MK_SETTINGS_SLEEPSTART": 4,
+        "MK_SETTINGS_STEPTARGET": 6,
+        "MK_SETTINGS_TIMEEXACT": 3,
+        "MK_SETTINGS_TIMETYPE": 2,
+        "MK_SETTINGS_TOURNEYHISTORY1": 19,
+        "MK_SETTINGS_TOURNEYHISTORY10": 28,
+        "MK_SETTINGS_TOURNEYHISTORY11": 29,
+        "MK_SETTINGS_TOURNEYHISTORY12": 30,
+        "MK_SETTINGS_TOURNEYHISTORY13": 31,
+        "MK_SETTINGS_TOURNEYHISTORY14": 32,
+        "MK_SETTINGS_TOURNEYHISTORY15": 33,
+        "MK_SETTINGS_TOURNEYHISTORY16": 34,
+        "MK_SETTINGS_TOURNEYHISTORY17": 35,
+        "MK_SETTINGS_TOURNEYHISTORY2": 20,
+        "MK_SETTINGS_TOURNEYHISTORY3": 21,
+        "MK_SETTINGS_TOURNEYHISTORY4": 22,
+        "MK_SETTINGS_TOURNEYHISTORY5": 23,
+        "MK_SETTINGS_TOURNEYHISTORY6": 24,
+        "MK_SETTINGS_TOURNEYHISTORY7": 25,
+        "MK_SETTINGS_TOURNEYHISTORY8": 26,
+        "MK_SETTINGS_TOURNEYHISTORY9": 27,
+        "MK_SETTINGS_TOURNEYWINS": 10,
+        "MK_SETTINGS_USDATEFORMAT": 37,
+        "MK_SETTINGS_VER": 16,
+        "MK_SETTINGS_WINS": 8,
+        "MK_SETTINGS_WINSTHISTOURNEY": 18,
+        "MK_WEATHER": 13
+    },
+    "capabilities": [
+        "location",
+        "configurable"
+    ],
+    "companyName": "pod@podrasoft.com",
+    "longName": "Fighting Street Time",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "data/HondaHandSlapShort.txt",
+                "name": "HONDADATAHANDSLAPSHORT",
+                "type": "raw"
+            },
+            {
+                "file": "images/WipeSquareRotBig2.png",
+                "name": "IMAGE_WIPESQUAREBIG2",
+                "type": "png"
+            },
+            {
+                "file": "images/kenfacegrey.png",
+                "name": "IMAGE_KENGREYFACE",
+                "type": "png"
+            },
+            {
+                "file": "images/kenface.png",
+                "name": "IMAGE_KENFACE",
+                "type": "png"
+            },
+            {
+                "file": "images/MenuIcon.png",
+                "menuIcon": true,
+                "name": "IMAGE_MENUICON",
+                "type": "png"
+            },
+            {
+                "file": "data/HondaHit.txt",
+                "name": "HONDADATAHIT",
+                "type": "raw"
+            },
+            {
+                "file": "data/RyuIdle.png",
+                "name": "IMAGE_RYUIDLE",
+                "type": "raw"
+            },
+            {
+                "file": "data/DhalsimFlame.txt",
+                "name": "DHALSIMDATAFLAME",
+                "type": "raw"
+            },
+            {
+                "file": "data/DhalsimFlame.png",
+                "name": "IMAGE_DHALSIMFLAME",
+                "type": "raw"
+            },
+            {
+                "file": "data/KenFireDP.txt",
+                "name": "KENDATAFIREDP",
+                "type": "raw"
+            },
+            {
+                "file": "data/HondaHandSlap.txt",
+                "name": "HONDADATAHANDSLAP",
+                "type": "raw"
+            },
+            {
+                "file": "images/battery.png",
+                "name": "IMAGE_BATTERY",
+                "type": "png"
+            },
+            {
+                "file": "images/HealthBarBig.png",
+                "name": "IMAGE_HEALTHBAR1",
+                "type": "png"
+            },
+            {
+                "file": "images/HealthBarBigFlip.png",
+                "name": "IMAGE_HEALTHBAR2",
+                "type": "png"
+            },
+            {
+                "file": "data/RyuDP.txt",
+                "name": "RYUDATADP",
+                "type": "raw"
+            },
+            {
+                "file": "data/HondaHeadbutt.txt",
+                "name": "HONDADATAHEADBUTT",
+                "type": "raw"
+            },
+            {
+                "file": "data/GuileFlashKick.txt",
+                "name": "GUILEDATAFLASHKICK",
+                "type": "raw"
+            },
+            {
+                "file": "data/GuileFlashKick.png",
+                "name": "IMAGE_GUILEFLASHKICK",
+                "type": "raw"
+            },
+            {
+                "file": "data/HondaIdle.png",
+                "name": "IMAGE_HONDAIDLE",
+                "type": "raw"
+            },
+            {
+                "file": "data/KenIdle.txt",
+                "name": "KENDATAIDLE",
+                "type": "raw"
+            },
+            {
+                "file": "data/KenHit.txt",
+                "name": "KENDATAHIT",
+                "type": "raw"
+            },
+            {
+                "file": "data/KenFBMotion.txt",
+                "name": "KENDATAFBMOTION",
+                "type": "raw"
+            },
+            {
+                "file": "data/KenWin.png",
+                "name": "IMAGE_KENWIN",
+                "type": "raw"
+            },
+            {
+                "file": "data/KenKO.png",
+                "name": "IMAGE_KENKO",
+                "type": "raw"
+            },
+            {
+                "file": "data/KenIdle.png",
+                "name": "IMAGE_KENIDLE",
+                "type": "raw"
+            },
+            {
+                "file": "data/KenHit.png",
+                "name": "IMAGE_KENHIT",
+                "type": "raw"
+            },
+            {
+                "file": "data/KenFireDP.png",
+                "name": "IMAGE_KENFIREDP",
+                "type": "raw"
+            },
+            {
+                "file": "data/KenFBMotion.png",
+                "name": "IMAGE_KENFBMOTION",
+                "type": "raw"
+            },
+            {
+                "file": "images/RoundContainerSmall.png",
+                "name": "IMAGE_ROUNDBACK",
+                "type": "png"
+            },
+            {
+                "file": "images/PlaneBack.png",
+                "name": "IMAGE_PLANEBACK",
+                "type": "png"
+            },
+            {
+                "file": "images/japan.png",
+                "name": "IMAGE_FLAGJAPAN",
+                "type": "png"
+            },
+            {
+                "file": "images/flag_usa.png",
+                "name": "IMAGE_FLAGUSA",
+                "type": "png"
+            },
+            {
+                "file": "images/flag_russia.png",
+                "name": "IMAGE_FLAGRUSSIA",
+                "type": "png"
+            },
+            {
+                "file": "images/flag_india.png",
+                "name": "IMAGE_FLAGINDIA",
+                "type": "png"
+            },
+            {
+                "file": "images/flag_china.png",
+                "name": "IMAGE_FLAGCHINA",
+                "type": "png"
+            },
+            {
+                "file": "images/flag_brasil.png",
+                "name": "IMAGE_FLAGBRAZIL",
+                "type": "png"
+            },
+            {
+                "file": "images/airplane.png",
+                "name": "IMAGE_PLANE",
+                "type": "png"
+            },
+            {
+                "file": "images/shadow_small.png",
+                "name": "IMAGE_SHADOWSMALL",
+                "type": "png"
+            },
+            {
+                "file": "images/shadow_large.png",
+                "name": "IMAGE_SHADOWLARGE",
+                "type": "png"
+            },
+            {
+                "file": "images/starburst3.png",
+                "name": "IMAGE_STARBURST3",
+                "type": "png"
+            },
+            {
+                "file": "images/starburst2.png",
+                "name": "IMAGE_STARBURST2",
+                "type": "png"
+            },
+            {
+                "file": "images/starburst1.png",
+                "name": "IMAGE_STARBURST1",
+                "type": "png"
+            },
+            {
+                "file": "data/BlankaWin.txt",
+                "name": "BLANKADATAWIN",
+                "type": "raw"
+            },
+            {
+                "file": "data/BlankaHopElectric.txt",
+                "name": "BLANKADATAHOPELECTRIC",
+                "type": "raw"
+            },
+            {
+                "file": "data/GuileSBMotion.txt",
+                "name": "GUILEDATASBMOTION",
+                "type": "raw"
+            },
+            {
+                "file": "data/ChunLiKicks.txt",
+                "name": "CHUNLIDATAKICKS",
+                "type": "raw"
+            },
+            {
+                "file": "data/ChunLiFBMotion.txt",
+                "name": "CHUNLIDATAFBMOTION",
+                "type": "raw"
+            },
+            {
+                "file": "data/DhalsimFireMotion.txt",
+                "name": "DHALSIMDATAFIREMOTION",
+                "type": "raw"
+            },
+            {
+                "file": "data/ZangiefLariat.txt",
+                "name": "ZANGIEFDATALARIAT",
+                "type": "raw"
+            },
+            {
+                "file": "images/Sunny.png",
+                "name": "IMAGE_WEATHER_SUNNY",
+                "type": "png"
+            },
+            {
+                "file": "images/Rain.png",
+                "name": "IMAGE_WEATHER_RAIN",
+                "type": "png"
+            },
+            {
+                "file": "images/NightRain.png",
+                "name": "IMAGE_WEATHER_NIGHTRAIN",
+                "type": "png"
+            },
+            {
+                "file": "images/NightFewCloud.png",
+                "name": "IMAGE_WEATHER_NIGHTFEWCLOUDS",
+                "type": "png"
+            },
+            {
+                "file": "images/Night.png",
+                "name": "IMAGE_WEATHER_NIGHT",
+                "type": "png"
+            },
+            {
+                "file": "images/LightRain.png",
+                "name": "IMAGE_WEATHER_SHOWERRAIN",
+                "type": "png"
+            },
+            {
+                "file": "images/Cloudy.png",
+                "name": "IMAGE_WEATHER_CLOUDY",
+                "type": "png"
+            },
+            {
+                "file": "images/Mist.png",
+                "name": "IMAGE_WEATHER_MIST",
+                "type": "png"
+            },
+            {
+                "file": "images/tournament_win2b.png",
+                "name": "IMAGE_TOURNEYWON2b",
+                "type": "png"
+            },
+            {
+                "file": "images/tournament_win2.png",
+                "name": "IMAGE_TOURNEYWON2",
+                "type": "png"
+            },
+            {
+                "file": "images/tournament_winb.png",
+                "name": "IMAGE_TOURNEYWON1b",
+                "type": "png"
+            },
+            {
+                "file": "images/tournament_win.png",
+                "name": "IMAGE_TOURNEYWON1",
+                "type": "png"
+            },
+            {
+                "file": "images/you_win.png",
+                "name": "IMAGE_YOUWIN",
+                "type": "png"
+            },
+            {
+                "file": "images/you_lose.png",
+                "name": "IMAGE_YOULOSE",
+                "type": "png"
+            },
+            {
+                "file": "images/zangiefstage16b.png",
+                "name": "IMAGE_ZANGIEFSTAGE16b",
+                "type": "png"
+            },
+            {
+                "file": "images/zangiefstage16.png",
+                "name": "IMAGE_ZANGIEFSTAGE16",
+                "type": "png"
+            },
+            {
+                "file": "images/ryustage16b.png",
+                "name": "IMAGE_RYUSTAGE16b",
+                "type": "png"
+            },
+            {
+                "file": "images/ryustage16.png",
+                "name": "IMAGE_RYUSTAGE16",
+                "type": "png"
+            },
+            {
+                "file": "images/kenstagesmall16b.png",
+                "name": "IMAGE_KENSTAGE16b",
+                "type": "png"
+            },
+            {
+                "file": "images/kenstagesmall16.png",
+                "name": "IMAGE_KENSTAGE16",
+                "type": "png"
+            },
+            {
+                "file": "images/hondastage16b.png",
+                "name": "IMAGE_HONDASTAGE16b",
+                "type": "png"
+            },
+            {
+                "file": "images/hondastage16.png",
+                "name": "IMAGE_HONDASTAGE16",
+                "type": "png"
+            },
+            {
+                "file": "images/guilestage16b.png",
+                "name": "IMAGE_GUILESTAGE16b",
+                "type": "png"
+            },
+            {
+                "file": "images/guilestage16.png",
+                "name": "IMAGE_GUILESTAGE16",
+                "type": "png"
+            },
+            {
+                "file": "images/dhalsimstage16b.png",
+                "name": "IMAGE_DHALSIMSTAGE16b",
+                "type": "png"
+            },
+            {
+                "file": "images/dhalsimstage16.png",
+                "name": "IMAGE_DHALSIMSTAGE16",
+                "type": "png"
+            },
+            {
+                "file": "images/chunlistage16b.png",
+                "name": "IMAGE_CHUNLISTAGE16b",
+                "type": "png"
+            },
+            {
+                "file": "images/chunlistage16.png",
+                "name": "IMAGE_CHUNLISTAGE16",
+                "type": "png"
+            },
+            {
+                "file": "images/blankastage16b.png",
+                "name": "IMAGE_BLANKASTAGE16b",
+                "type": "png"
+            },
+            {
+                "file": "images/blankastage16.png",
+                "name": "IMAGE_BLANKASTAGE16",
+                "type": "png"
+            },
+            {
+                "file": "data/GuileSBIdle.txt",
+                "name": "GUILEDATASBIDLE",
+                "type": "raw"
+            },
+            {
+                "file": "data/GuileSBHit.txt",
+                "name": "GUILEDATASBHIT",
+                "type": "raw"
+            },
+            {
+                "file": "data/GuileSBIdle.png",
+                "name": "IMAGE_GUILESBIDLE",
+                "type": "raw"
+            },
+            {
+                "file": "data/GuileSBHit.png",
+                "name": "IMAGE_GUILESBHIT",
+                "type": "raw"
+            },
+            {
+                "file": "data/GuileSBMotion.png",
+                "name": "IMAGE_GUILESBMOTION",
+                "type": "raw"
+            },
+            {
+                "file": "data/DhalsimFireIdle.txt",
+                "name": "DHALSIMDATAFIREIDLE",
+                "type": "raw"
+            },
+            {
+                "file": "data/DhalsimFireHit.txt",
+                "name": "DHALSIMDATAFIREHIT",
+                "type": "raw"
+            },
+            {
+                "file": "data/DhalsimFireIdle.png",
+                "name": "IMAGE_DHALSIMFIREIDLE",
+                "type": "raw"
+            },
+            {
+                "file": "data/DhalsimFireHit.png",
+                "name": "IMAGE_DHALSIMFIREHIT",
+                "type": "raw"
+            },
+            {
+                "file": "data/DhalsimFireMotion.png",
+                "name": "IMAGE_DHALSIMFIREMOTION",
+                "type": "raw"
+            },
+            {
+                "file": "data/DhalsimIdle.txt",
+                "name": "DHALSIMDATAIDLE",
+                "type": "raw"
+            },
+            {
+                "file": "data/DhalsimIdle.png",
+                "name": "IMAGE_DHALSIMIDLE",
+                "type": "raw"
+            },
+            {
+                "file": "images/Fight.png",
+                "name": "IMAGE_FIGHT",
+                "type": "png"
+            },
+            {
+                "file": "images/round.png",
+                "name": "IMAGE_ROUNDX",
+                "type": "png"
+            },
+            {
+                "file": "images/5.png",
+                "name": "IMAGE_ROUNDFIVE",
+                "type": "png"
+            },
+            {
+                "file": "images/4.png",
+                "name": "IMAGE_ROUNDFOUR",
+                "type": "png"
+            },
+            {
+                "file": "images/3.png",
+                "name": "IMAGE_ROUNDTHREE",
+                "type": "png"
+            },
+            {
+                "file": "images/2.png",
+                "name": "IMAGE_ROUNDTWO",
+                "type": "png"
+            },
+            {
+                "file": "images/1.png",
+                "name": "IMAGE_ROUNDONE",
+                "type": "png"
+            },
+            {
+                "file": "data/ChunLiFBHit.txt",
+                "name": "CHUNLIDATAFBHIT",
+                "type": "raw"
+            },
+            {
+                "file": "data/ChunLiHit.txt",
+                "name": "CHUNLIDATAHIT",
+                "type": "raw"
+            },
+            {
+                "file": "data/ChunLiFBIdle.txt",
+                "name": "CHUNLIDATAFBIDLE",
+                "type": "raw"
+            },
+            {
+                "file": "data/ChunLiFBMotion.png",
+                "name": "IMAGE_CHUNLIFBMOTION",
+                "type": "raw"
+            },
+            {
+                "file": "data/ChunLiFBHit.png",
+                "name": "IMAGE_CHUNLIFBHIT",
+                "type": "raw"
+            },
+            {
+                "file": "data/ChunLiFBIdle.png",
+                "name": "IMAGE_CHUNLIFBIDLE",
+                "type": "raw"
+            },
+            {
+                "file": "data/BlankaHopElectric.png",
+                "name": "IMAGE_BLANKAHOPELECTRIC",
+                "type": "raw"
+            },
+            {
+                "file": "images/zangiefgreyface.png",
+                "name": "IMAGE_ZANGIEFGREYFACE",
+                "type": "png"
+            },
+            {
+                "file": "images/zangiefface.png",
+                "name": "IMAGE_ZANGIEFFACE",
+                "type": "png"
+            },
+            {
+                "file": "images/ryugreyface.png",
+                "name": "IMAGE_RYUGREYFACE",
+                "type": "png"
+            },
+            {
+                "file": "images/ryuface.png",
+                "name": "IMAGE_RYUFACE",
+                "type": "png"
+            },
+            {
+                "file": "images/hondagreyface.png",
+                "name": "IMAGE_HONDAGREYFACE",
+                "type": "png"
+            },
+            {
+                "file": "images/hondaface.png",
+                "name": "IMAGE_HONDAFACE",
+                "type": "png"
+            },
+            {
+                "file": "images/guilegreyface.png",
+                "name": "IMAGE_GUILEGREYFACE",
+                "type": "png"
+            },
+            {
+                "file": "images/guileface.png",
+                "name": "IMAGE_GUILEFACE",
+                "type": "png"
+            },
+            {
+                "file": "images/dhalsimgreyface.png",
+                "name": "IMAGE_DHALSIMGREYFACE",
+                "type": "png"
+            },
+            {
+                "file": "images/dhalsimface.png",
+                "name": "IMAGE_DHALSIMFACE",
+                "type": "png"
+            },
+            {
+                "file": "images/blankagreyface.png",
+                "name": "IMAGE_BLANKAGREYFACE",
+                "type": "png"
+            },
+            {
+                "file": "images/blankaface.png",
+                "name": "IMAGE_BLANKAFACE",
+                "type": "png"
+            },
+            {
+                "file": "images/chungreyface.png",
+                "name": "IMAGE_CHUNGREYFACE",
+                "type": "png"
+            },
+            {
+                "file": "images/chunface.png",
+                "name": "IMAGE_CHUNFACE",
+                "type": "png"
+            },
+            {
+                "file": "data/BlankaKO.txt",
+                "name": "BLANKADATAKO",
+                "type": "raw"
+            },
+            {
+                "file": "data/BlankaIdle.txt",
+                "name": "BLANKADATAIDLE",
+                "type": "raw"
+            },
+            {
+                "file": "data/BlankaHit.txt",
+                "name": "BLANKADATAHIT",
+                "type": "raw"
+            },
+            {
+                "file": "data/BlankaWin.png",
+                "name": "IMAGE_BLANKAWIN",
+                "type": "raw"
+            },
+            {
+                "file": "data/BlankaKO.png",
+                "name": "IMAGE_BLANKAKO",
+                "type": "raw"
+            },
+            {
+                "file": "data/BlankaIdle.png",
+                "name": "IMAGE_BLANKAIDLE",
+                "type": "raw"
+            },
+            {
+                "file": "data/BlankaHit.png",
+                "name": "IMAGE_BLANKAHIT",
+                "type": "raw"
+            },
+            {
+                "file": "data/ChunLiWin.txt",
+                "name": "CHUNLIDATAWIN",
+                "type": "raw"
+            },
+            {
+                "file": "data/ChunLiKO.txt",
+                "name": "CHUNLIDATAKO",
+                "type": "raw"
+            },
+            {
+                "file": "data/ChunLiIdle.txt",
+                "name": "CHUNLIDATAIDLE",
+                "type": "raw"
+            },
+            {
+                "file": "data/ChunLiWin.png",
+                "name": "IMAGE_CHUNLIWIN",
+                "type": "raw"
+            },
+            {
+                "file": "data/ChunLiKO.png",
+                "name": "IMAGE_CHUNLIKO",
+                "type": "raw"
+            },
+            {
+                "file": "data/ChunLiKicks.png",
+                "name": "IMAGE_CHUNLIKICKS",
+                "type": "raw"
+            },
+            {
+                "file": "data/ChunLiIdle.png",
+                "name": "IMAGE_CHUNLIIDLE",
+                "type": "raw"
+            },
+            {
+                "file": "data/ChunLiHit.png",
+                "name": "IMAGE_CHUNLIHIT",
+                "type": "raw"
+            },
+            {
+                "file": "data/DhalsimWin.txt",
+                "name": "DHALSIMDATAWIN",
+                "type": "raw"
+            },
+            {
+                "file": "data/DhalsimKO.txt",
+                "name": "DHALSIMDATAKO",
+                "type": "raw"
+            },
+            {
+                "file": "data/DhalsimHit.txt",
+                "name": "DHALSIMDATAHIT",
+                "type": "raw"
+            },
+            {
+                "file": "data/DhalsimWin.png",
+                "name": "IMAGE_DHALSIMWIN",
+                "type": "raw"
+            },
+            {
+                "file": "data/DhalsimKO.png",
+                "name": "IMAGE_DHALSIMKO",
+                "type": "raw"
+            },
+            {
+                "file": "data/DhalsimHit.png",
+                "name": "IMAGE_DHALSIMHIT",
+                "type": "raw"
+            },
+            {
+                "file": "data/GuileIdle.txt",
+                "name": "GUILEDATAIDLE",
+                "type": "raw"
+            },
+            {
+                "file": "data/GuileWin.txt",
+                "name": "GUILEDATAWIN",
+                "type": "raw"
+            },
+            {
+                "file": "data/GuileHit.txt",
+                "name": "GUILEDATAHIT",
+                "type": "raw"
+            },
+            {
+                "file": "data/GuileKO.txt",
+                "name": "GUILEDATAKO",
+                "type": "raw"
+            },
+            {
+                "file": "data/GuileWin.png",
+                "name": "IMAGE_GUILEWIN",
+                "type": "raw"
+            },
+            {
+                "file": "data/GuileKO.png",
+                "name": "IMAGE_GUILEKO",
+                "type": "raw"
+            },
+            {
+                "file": "data/GuileIdle.png",
+                "name": "IMAGE_GUILEIDLE",
+                "type": "raw"
+            },
+            {
+                "file": "data/GuileHit.png",
+                "name": "IMAGE_GUILEHIT",
+                "type": "raw"
+            },
+            {
+                "file": "data/KenWin.txt",
+                "name": "KENDATAWIN",
+                "type": "raw"
+            },
+            {
+                "file": "data/KenKO.txt",
+                "name": "KENDATAKO",
+                "type": "raw"
+            },
+            {
+                "file": "data/KenFBIdle.txt",
+                "name": "KENDATAFBIDLE",
+                "type": "raw"
+            },
+            {
+                "file": "data/KenFBHit.txt",
+                "name": "KENDATAFBHIT",
+                "type": "raw"
+            },
+            {
+                "file": "data/RyuHit.txt",
+                "name": "RYUDATAHIT",
+                "type": "raw"
+            },
+            {
+                "file": "data/HondaKO.png",
+                "name": "IMAGE_HONDAKO",
+                "type": "raw"
+            },
+            {
+                "file": "data/HondaHit.png",
+                "name": "IMAGE_HONDAHIT",
+                "type": "raw"
+            },
+            {
+                "file": "data/HondaKO.txt",
+                "name": "HONDADATAKO",
+                "type": "raw"
+            },
+            {
+                "file": "data/HondaWin.txt",
+                "name": "HONDADATAWIN",
+                "type": "raw"
+            },
+            {
+                "file": "data/RyuKO.png",
+                "name": "IMAGE_RYUKO",
+                "type": "raw"
+            },
+            {
+                "file": "data/RyuKO.txt",
+                "name": "RYUDATAKO",
+                "type": "raw"
+            },
+            {
+                "file": "data/RyuHit.png",
+                "name": "IMAGE_RYUHIT",
+                "type": "raw"
+            },
+            {
+                "file": "data/RyuWin.txt",
+                "name": "RYUDATAWIN",
+                "type": "raw"
+            },
+            {
+                "file": "data/RyuWin.png",
+                "name": "IMAGE_RYUWIN",
+                "type": "raw"
+            },
+            {
+                "file": "data/RyuFBIdle.txt",
+                "name": "RYUDATAFBIDLE",
+                "type": "raw"
+            },
+            {
+                "file": "data/KenFireballIdle.png",
+                "name": "IMAGE_KENFIREBALLIDLE",
+                "type": "raw"
+            },
+            {
+                "file": "data/RyuFBHit.txt",
+                "name": "RYUDATAFBHIT",
+                "type": "raw"
+            },
+            {
+                "file": "data/KenFireballHit.png",
+                "name": "IMAGE_KENFIREBALLHIT",
+                "type": "raw"
+            },
+            {
+                "file": "data/RyuFBMotion.txt",
+                "name": "RYUDATAFBMOTION",
+                "type": "raw"
+            },
+            {
+                "file": "data/RyuFBMotion.png",
+                "name": "IMAGE_RYUFBMOTION",
+                "type": "raw"
+            },
+            {
+                "file": "data/RyuDP.png",
+                "name": "IMAGE_RYUDP",
+                "type": "raw"
+            },
+            {
+                "file": "data/RyuIdle.txt",
+                "name": "RYUDATAIDLE",
+                "type": "raw"
+            },
+            {
+                "file": "data/ZangiefKO.txt",
+                "name": "ZANGIEFDATAKO",
+                "type": "raw"
+            },
+            {
+                "file": "data/ZangiefHit.txt",
+                "name": "ZANGIEFDATAHIT",
+                "type": "raw"
+            },
+            {
+                "file": "data/ZangiefHit.png",
+                "name": "IMAGE_ZANGIEFHIT",
+                "type": "raw"
+            },
+            {
+                "file": "data/ZangiefKO.png",
+                "name": "IMAGE_ZANGIEFKO",
+                "type": "raw"
+            },
+            {
+                "file": "data/HondaIdle.txt",
+                "name": "HONDADATAIDLE",
+                "type": "raw"
+            },
+            {
+                "file": "data/HondaWin.png",
+                "name": "IMAGE_HONDAWIN",
+                "type": "raw"
+            },
+            {
+                "file": "data/HondaHeadbutt.png",
+                "name": "IMAGE_HONDAHEADBUTT",
+                "type": "raw"
+            },
+            {
+                "file": "data/HondaHandSlap.png",
+                "name": "IMAGE_HONDAHANDSLAP",
+                "type": "raw"
+            },
+            {
+                "file": "data/ZangiefIdle.png",
+                "name": "IMAGE_ZANGIEFIDLE",
+                "type": "raw"
+            },
+            {
+                "file": "data/ZangiefIdle.txt",
+                "name": "ZANGIEFDATAIDLE",
+                "type": "raw"
+            },
+            {
+                "file": "images/Thunder.png",
+                "name": "IMAGE_WEATHER_THUNDERSTORM",
+                "type": "png"
+            },
+            {
+                "file": "images/Snow.png",
+                "name": "IMAGE_WEATHER_SNOW",
+                "type": "png"
+            },
+            {
+                "file": "images/FewCloud.png",
+                "name": "IMAGE_WEATHER_FEWCLOUDS",
+                "type": "png"
+            },
+            {
+                "file": "images/BrokenCloud.png",
+                "name": "IMAGE_WEATHER_BROKENCLOUDS",
+                "type": "png"
+            },
+            {
+                "file": "data/ZangiefWin.png",
+                "name": "IMAGE_ZANGIEFWIN",
+                "type": "raw"
+            },
+            {
+                "file": "data/ZangiefLariat.png",
+                "name": "IMAGE_ZANGIEFLARIAT",
+                "type": "raw"
+            },
+            {
+                "file": "data/ZangiefWin.txt",
+                "name": "ZANGIEFDATAWIN",
+                "type": "raw"
+            },
+            {
+                "file": "images/QuestionFace.png",
+                "name": "IMAGE_QUESTIONFACE",
+                "type": "png"
+            },
+            {
+                "file": "images/statsstage16.png",
+                "name": "IMAGE_STATSBACKGROUND",
+                "type": "png"
+            },
+            {
+                "file": "fonts/ufonts.com_agency-fb.ttf",
+                "name": "FONT_TIME_34",
+                "type": "font"
+            },
+            {
+                "file": "fonts/ufonts.com_agency-fb.ttf",
+                "name": "FONT_TIME_28",
+                "type": "font"
+            },
+            {
+                "file": "fonts/ufonts.com_agency-fb.ttf",
+                "name": "FONT_TIME_14",
+                "type": "font"
+            },
+            {
+                "file": "fonts/ufonts.com_agency-fb.ttf",
+                "name": "FONT_TIME_12",
+                "type": "font"
+            },
+            {
+                "file": "images/RoundWinSmall.png",
+                "name": "IMAGE_ROUNDWIN",
+                "type": "png"
+            },
+            {
+                "file": "images/WipeSquareRotBig.png",
+                "name": "IMAGE_WIPESQUAREBIG",
+                "type": "png"
+            },
+            {
+                "file": "images/TimeBackSmall.png",
+                "name": "IMAGE_TIMEBACKGROUND",
+                "type": "png"
+            },
+            {
+                "file": "images/flag_uk.png",
+                "name": "IMAGE_FLAGUK",
+                "type": "png"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "Fighting Street Time",
+    "targetPlatforms": [
+        "basalt"
+    ],
+    "uuid": "4b25390b-ae09-4271-b7bc-658e323a7f6e",
+    "versionLabel": "1.1",
+    "watchapp": {
+        "watchface": true
+    }
+}
